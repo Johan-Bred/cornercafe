@@ -4,9 +4,11 @@
     <head>
       <meta charset="utf-8" />
       <title>confirmation</title>
+      <link rel="stylesheet" href="style.css" />
     </head>
     <body>
       <header>
+        <p><strong>Kafé Hörnet</strong></p>
         <nav>
           <a href="index.html">Start</a>
           <a href="meny.html">Meny</a>
@@ -14,11 +16,13 @@
         </nav>
       </header>
       <main>
-        <p>
-          Tack {namn}! Vi har tagit emot din bokning för {antal} personer den
-          {datum} kl {tid}. Du får en bekräftelse på {e-post}.
-        </p>
-        <section>
+        <section class="greenbox">
+          <p>
+            Tack Anna! Vi har tagit emot din bokning för 4 personer den
+            2026-12-05 kl 12:00. Du får en bekräftelse på anna@example.com.
+          </p>
+        </section>
+        <section class="beigebox">
           <h2>Bra att veta</h2>
           <ul>
             <li>Bordet hålls i 15 minuter efter bokad tid.</li>
@@ -28,15 +32,15 @@
         </section>
 
         <footer>
-          <p>Hitta hit</p>
+          <h3>Hitta hit</h3>
           <p>Hörngatan 12, 11865 Stockholm</p>
           <p>Två minuter från Mariatorgets tunnelbana</p>
           <p>© Kafé Hörnet 2026</p>
-          <p>Öppettider</p>
+          <h3>Öppettider</h3>
           <p>Måndag-fredag 08.00-17.00</p>
           <p>Lördag-söndag 10.00-15.00</p>
-          <p>Kontakt</p>
-          <p>hej@kafehornet.example</p>
+          <h3>Kontakt</h3>
+          <p><a>hej@kafehornet.example</a></p>
           <p>08-123 45 67</p>
         </footer>
       </main>
